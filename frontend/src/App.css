@@ -1,0 +1,28 @@
+/* Hide scrollbar for all browsers */
+/* For Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* For IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
